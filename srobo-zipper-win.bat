@@ -16,7 +16,7 @@ ECHO "Copying temporary files..."
 mkdir "%temp%\robot"
 xcopy "%pyenvloc%" "%temp%\robot" /s /e
 mkdir "%temp%\robot\user"
-xcopy "%codeloc%" "%temp%\robot\user"
+xcopy "%codeloc%" "%temp%\robot\user" /s /e
 
 ECHO "Compressing..."
 "%~dp07za.exe" a -tzip "%outputloc%\robot.zip" "%temp%\robot\*" -r
