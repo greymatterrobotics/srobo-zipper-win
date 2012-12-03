@@ -12,7 +12,7 @@ If you have a drive with a '.srobo' file in its root (as the usb flash drive pro
 
 Requirements
 ------------
-For the script to run, Git must be on your system path. Other than that you can place the batch file anywhere, as long as 7za.exe is located in the same folder.
+For the script to run, Git must be on your system path. Other than that you can place the batch file anywhere, as long as 7za.exe and the pyenv directory are located in the same folder.
 
 Usage
 -----
